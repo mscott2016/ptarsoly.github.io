@@ -1,14 +1,53 @@
 # Site settings
-title: Pete's Hacking Grounds
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
-# Build settings
-markdown: kramdown
+url: "http://ptarsoly.github.io"
+title: " Peter Tarsoly "
+description: "Peter Tarsoly's pad on the internet"
+keywords: "peter, tarsoly, computer, engineering, information, technology, science"
+# favicon: "/img/favicon.ico"
+# black-favicon: "/img/black-lab-glass.ico"
+google-tracking-id: "UA-35880426-3"
+# disqus-shortname: 
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+#  Blog: 'blog'
+#  Career: 'career'
+  Contact: 'contact'
+
+background-img: "/img/intro-bg.jpg"
+
+# About variables
+
+me-img: "/img/me.jpg"
+
+# Blog variables
+paginate: 15
+
+paginate_path: "blog/page:num"
+
+post-preview-words: 128
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+
+
+# First image of the Career timeline
+career-img: "/img/career/default.jpg"
+
+# Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
+social:
+  - title: "github"
+    url: "https://github.com/ptarsoly"
+#  - title: "linkedin"
+#   url: "http://no.linkedin.com/in/PanosSakkos"
+
+404-img: "/img/labtocat.png"
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
